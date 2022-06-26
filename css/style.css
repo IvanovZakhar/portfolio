@@ -1,0 +1,109 @@
+main{
+    position: relative;
+    background-color: #e6e6e6;
+    min-height: 500px;
+}
+
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/bg.jpg')  center center / cover no-repeat;
+    width: 100%;
+    height: 400px;
+    padding-top: 85px;
+}
+
+header h1, .text-head{
+    font-family: 'Russo One', sans-serif;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 15px black;
+}
+
+.links{
+    display: flex;
+    width: 80px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-left: 0px;
+    justify-content: space-around;
+    list-style: none;
+    text-shadow: 1px 1px 5px black;
+}
+
+.links a{
+    color: white;
+}
+
+.links a:hover{
+    color: #a0a0a0;
+}
+
+.avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    position: absolute;
+    top: 270px;
+    left: 50%;
+    transform:translateX(-50%);
+
+}
+
+.avatar img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-me{
+    min-height: 300px;
+    padding-top: 150px;
+}
+
+.about-me h2, .skills h2, .projects h2{
+    margin-top: 20px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #2d2d2d;
+    text-align: center;
+}
+
+.about-me__text{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.skills{
+    margin-top: 40px;
+}
+
+.technologies{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    padding-left: 0px;
+    padding-top: 15px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.technologies a{
+    color: #2d2d2d;
+}
+
+.technologies a:hover{
+    color: #5c4a4a
+}
+
+.card img{ 
+    width: 300px;
+    height: 300px;
+}
