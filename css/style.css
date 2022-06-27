@@ -106,12 +106,15 @@ header h1, .text-head{
 
 
 .card{
-    position: relative;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color:#2d2d2d;
 }
 
 .project-table{
+    margin: 0 auto;
     margin-top: 20px;
-    width: 100%;
+    width: 700px;
     height: 100%;
     display: flex;
     justify-content: space-between;
